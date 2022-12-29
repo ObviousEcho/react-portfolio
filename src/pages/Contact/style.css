@@ -1,0 +1,17 @@
+.container {
+    height: 100%
+  }
+  
+  .form input {
+    display: block;
+    width: 100%
+  }
+  
+  .formText {
+    display: block;
+    width: 100%;
+  }
+  
+  .contact-info {
+    padding-bottom: 70px;
+  }
