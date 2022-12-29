@@ -1,0 +1,20 @@
+.about {
+    gap: 5%;
+    padding-bottom: 70px;
+    z-index: -1;
+  }
+  
+  .about p {
+    font-size: 1.4em;
+  }
+  
+  .profile-pic {
+    max-height: 90%;
+  }
+  
+  @media screen and (min-width: 600px) and (max-width: 991px) {
+    img {
+      margin: 1em;
+      float: left;
+    }
+  }
