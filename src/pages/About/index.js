@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
 import "./style.css";
+import Me from "../../images/me-400.jpg";
 
 export default function About() {
   return (
     <section className="about m-1 m-md-2 m-lg-5 d-lg-flex align-items-xl-center">
       <div className="profile-pic text-center">
-        <Image src="../images/me-400.jpg" alt="author" />
+        <Image src={Me} alt="author" />
       </div>
       <div>
         <h2>A success story in the making...</h2>

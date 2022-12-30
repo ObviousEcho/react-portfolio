@@ -1,6 +1,8 @@
 # React Portfolio
 
-![partial screenshot from website](./public/images/readme.png)
+![partial screenshot from website](/src/images/readme.png)
+
+---
 
 This is my personal portfolio, built with React.  A Simple, single web-page application, using the following technologies:
 
