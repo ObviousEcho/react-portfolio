@@ -3,6 +3,8 @@ import Image from "react-bootstrap/Image";
 import "./style.css";
 import Me from "../../images/me-400.jpg";
 
+// About section
+
 export default function About() {
   return (
     <section className="about m-1 m-md-2 m-lg-5 d-lg-flex align-items-xl-center">

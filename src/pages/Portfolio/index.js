@@ -14,7 +14,11 @@ function Portfolio() {
       <div className="port d-flex flex-wrap justify-content-around align-items-center mt-5">
         {projects.map((project) => {
           return (
-            <Card style={{ width: "18rem" }} className="mb-4">
+            <Card
+              key={project.title}
+              style={{ width: "18rem" }}
+              className="mb-4"
+            >
               <Card.Img variant="top" src={project.image} />
               <Card.Body className="border-top">
                 <Card.Title>{project.title}</Card.Title>
