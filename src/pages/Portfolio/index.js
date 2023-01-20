@@ -23,8 +23,12 @@ function Portfolio() {
               <Card.Body className="border-top">
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>{project.desc}</Card.Text>
-                <Card.Link href={project.site}>{project.title}</Card.Link>
-                <Card.Link href={project.github}>GitHub</Card.Link>
+                <Card.Link href={project.site} target="_blank">
+                  {project.title}
+                </Card.Link>
+                <Card.Link href={project.github} target="_blank">
+                  GitHub
+                </Card.Link>
               </Card.Body>
             </Card>
           );
