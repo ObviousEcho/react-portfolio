@@ -5,9 +5,12 @@ import GitHub from "../images/GitHub-Mark-54px.png";
 
 function Footer() {
   return (
-    <Navbar fixed="bottom" className="justify-content-center bg-white border-top">
+    <Navbar
+      fixed="bottom"
+      className="justify-content-center bg-white border-top"
+    >
       <div>
-        <a href="https://www.linkedin.com/in/andrew-stehno-0a2831189/">
+        <a href="https://www.linkedin.com/in/andrew-stehno-webdev/">
           <img src={LinkedIn} alt="LinkedIn logo" />
         </a>
         <a href="https://github.com/ObviousEcho">
